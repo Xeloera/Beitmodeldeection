@@ -318,22 +318,22 @@ zict                        ==  2.1.0
 zipp                        ==  3.8.0
 zope.interface              ==  5.4.0
 
-watchdog                      2.1.6
-wcwidth                       0.2.5
-webencodings                  0.5.1
-websocket-client              0.58.0
-Werkzeug                      2.0.3
-wheel                         0.37.1
-widgetsnbextension            3.5.2
-win-inet-pton                 1.1.0
-win-unicode-console           0.5
-wincertstore                  0.2
-wrapt                         1.14.1
-xarray                        0.20.1
-xlrd                          2.0.1
-XlsxWriter                    3.0.3
-xlwings                       0.27.15
-yapf                          0.31.0
-zict                          2.1.0
-zipp                          3.8.0
-zope.interface                5.4.0
+watchdog                     == 2.1.6
+wcwidth                      == 0.2.5
+webencodings                 == 0.5.1
+websocket-client             == 0.58.0
+Werkzeug                     == 2.0.3
+wheel                        == 0.37.1
+widgetsnbextension           == 3.5.2
+win-inet-pton                == 1.1.0
+win-unicode-console          == 0.5
+wincertstore                 == 0.2
+wrapt                        == 1.14.1
+xarray                       == 0.20.1
+xlrd                         == 2.0.1
+XlsxWriter                   == 3.0.3
+xlwings                      == 0.27.15
+yapf                         == 0.31.0
+zict                         == 2.1.0
+zipp                         == 3.8.0
+zope.interface               == 5.4.0
