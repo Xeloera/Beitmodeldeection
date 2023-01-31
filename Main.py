@@ -4,13 +4,25 @@ import requests
 import torch
 from transformers import BeitFeatureExtractor, BeitForImageClassification
 import io 
+#import torch
+#import torch.nn as nn
+
+
 
 app = Flask(__name__)
-
+''' RUN ONCE PER A MACHINE 
 feature_extractor = BeitFeatureExtractor.from_pretrained(   #update later for local model
     'microsoft/beit-base-patch16-224-pt22k-ft22k')
 model = BeitForImageClassification.from_pretrained(
     'microsoft/beit-base-patch16-224-pt22k-ft22k')
+
+feature_extractor.save_pretrained("./Beit")
+model.save_pretrained("./Beit")
+'''
+feature_extractor = BeitFeatureExtractor.from_pretrained("./Beit")
+model = BeitForImageClassification.from_pretrained("./Beit")
+
+
 model.eval()
 
 
